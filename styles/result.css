@@ -1,0 +1,40 @@
+body {background-color: #111;}
+#wrap {
+    width:440px; height:956px; margin:0 auto;
+    background-image:url(../images/bg3.jpg);
+    background-size:170% auto;
+    background-position:center bottom;
+    text-align:center;
+    padding-top:99px;/* #wrap > #title */
+}
+#wrap #title {
+    margin:0 0 30px; /* #title + #contents */
+}
+#wrap #title p {
+    margin:0 0 14px;/* p + h1 */
+}
+#wrap #title h1 {
+    font-family:'MaruBuri-B', serif;
+}
+#wrap #contents {
+    margin:0 0 94px;/* #contents + button */
+}
+#wrap #contents p {}
+#wrap #contents .user_month {
+    margin-bottom:20px;/* p+p */
+    font-style:italic;
+}
+#wrap #contents .result {
+    line-height:1.5;/* 행간 150% */
+}
+#wrap #share_btn,
+#wrap .back {display:block;}
+#wrap #share_btn {
+    background-color:#222; color:#fff;
+    margin:0 auto 20px;
+    width:250px; line-height:40px;
+    border-radius:20px;
+}
+#wrap #share_btn:hover {color:#ff0; border-radius:10px;}
+#wrap .back {}
+#wrap .back:hover {text-decoration: underline;}
